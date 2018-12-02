@@ -1,0 +1,156 @@
+header {
+    background-color: #191F36;
+    padding: 1em;
+    color: white
+}
+
+body {
+    background-color: hsla(228, 97%, 65%, 0.1);
+}
+
+
+#signup {
+    display: inline-block;
+    margin-top: -3.4em;
+    margin-left: 27em;
+    width: 6em;
+    height: 2.3em;
+}
+
+main {
+    width: calc(100% + 2em);
+}
+
+h1 {
+    margin: 0em;
+}
+
+section h2 {
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center
+}
+
+button {
+    position: absolute;
+    background-color: yellow;
+    border-radius: 0.5em;
+    width: 8em;
+    height: 2em;
+    margin-top: 15em;
+    margin-left: 14em;
+    margin-right: 50%;
+    /*    flexbox*/
+}
+
+
+button + img {
+    width: calc(100% - 2.4em);
+    border: solid;
+    border-color: #191F36;
+
+
+}
+
+#filter {
+    font-size: 1.5em;
+    margin-left: 0em;
+    margin-top: 0em;
+    background-color: #191F36;
+    color: white;
+}
+
+#sorteer {
+    font-size: 1.5em;
+    margin-right: 0em;
+    margin-top: 0em;
+    margin-left: 8em;
+    background-color: #191F36;
+    color: white;
+}
+
+
+article {
+    width: 21.9em;
+    border: 1px solid #191F36;
+    padding: 1em;
+    transition: 1s;
+    margin-top: 3.4em
+    /*    duur transitie*/
+}
+
+
+
+article img {
+    width 100%;
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-top: -1em;
+    opacity: 0.4
+    /*kan je dus calcualties mee doen border*/
+}
+
+h3 {
+    color: black;
+    margin-top: 0em;
+    text-align: center;
+}
+
+p:last-of-type {
+    color: black;
+    text-align: center;
+    margin-top: -1.2em;
+    font-size: 0.8em
+}
+
+p:first-of-type {
+    margin-top: 0em;
+}
+
+h1 a {
+    color: purple;
+    color: hsl(0, 30%, 100%)
+}
+
+article:hover {
+    transform: scale(0.9);
+
+    /*    filter: hue-rotate(180deg)kleuren veranderen */
+}
+
+footer img:first-of-type {
+    width: 3em;
+    margin-left: 3.5em;
+}
+
+footer p:first-child {
+    font-size: 1em;
+    color: white
+}
+
+footer {
+    border: 1px solid #191F36;
+    margin-top: 1em;
+    background-color: #191F36;
+}
+
+footer img {
+    border: 0.1em solid
+}
+
+
+
+
+/*
+selector pak je dus bijvoorbeeld de volgende mee
+dus img+ * dan pakt hij het volgende element.
+article img + * betekent dan elk ding dat na een image komt in een aritcle krijgt deze stijl.*/
+
+/*
+selector + direct sibling selector
+
+article *: nth-child(2)
+
+is de volgende selector*/
